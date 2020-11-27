@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>word_pdf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3" />
+    <!-- <PackageReference Include="FreeSpire.Doc" Version="7.11.0" /> -->
+    <!-- <PackageReference Include="HtmlRenderer.PdfSharp" Version="1.5.0.6" /> -->
+    <!-- <PackageReference Include="itext7" Version="7.1.13" />
+    <PackageReference Include="itext7.pdfhtml" Version="3.0.2" /> -->
+    <!-- <PackageReference Include="OpenHtmlToPdf" Version="1.12.0" /> -->
+    <!-- <PackageReference Include="OpenXmlPowerTools" Version="4.5.3.2" /> -->
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <!-- <PackageReference Include="System.Drawing.Common" Version="5.0.0" /> -->
+  </ItemGroup>
+
+</Project>
